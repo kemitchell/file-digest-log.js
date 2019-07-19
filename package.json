@@ -1,0 +1,19 @@
+{
+  "name": "file-digest-log",
+  "version": "0.0.0",
+  "description": "store an append-only log of digests in a file",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "repository": "kemitchell/file-digest-log.js",
+  "license": "BlueOak-1.0.0",
+  "dependencies": {
+    "block-stream": "0.0.9",
+    "pump": "^3.0.0",
+    "run-series": "^1.1.8"
+  },
+  "devDependencies": {
+    "tape": "^4.11.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
